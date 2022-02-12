@@ -78,8 +78,8 @@ main {
 .banner-content {
   grid-column: 1;
   grid-row: 1;
-  background-color: rgba(240, 240, 240, 0.8);
   margin: 8em 3em;
   padding: 1em;
   text-align: center;
+  color: #ffffff;
 }

@@ -102,7 +102,13 @@ main {
   align-items: start;
 }
 
-.courses{
-  grid-template-columns: repeat(auto-fit, minmax(1em, 1fr)); 
-  grid-template-rows: repeat(auto-fit, minmax(1em, 1fr));  
+.courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.html {
+  grid-column: 1;
+  grid-row: 1;
 }

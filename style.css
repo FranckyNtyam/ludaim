@@ -11,6 +11,11 @@ body {
   color: #444444;
 }
 
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: "Merriweather", serif;
   font-size: 32px;
@@ -68,14 +73,14 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color:#000000;
-  height:400px;
+  height:600px;
 }
 .banner-box img {
-  width: 900;
-  height: 400px;
+  width: 100%;
+  height: 600px;
   grid-column: 2;
   grid-row: 1;
-  place-self: center;
+  
 }
 .banner-content {
   grid-column: 1;
@@ -84,7 +89,5 @@ main {
   text-align: center;
   color: #ffffff;
   font-family:"Bilbo Swash Caps", cursive;
-  position: relative;
-  justify-content: center;
   place-self: center;
 }

@@ -35,14 +35,14 @@ img {
   width: 110px;
   border-radius: 20px;
 }
-.logo-box{
+/*.logo-box{
   background-color:#073049;
   border: 1px solid white;
   margin-right: 6px;
   border-radius: 50px 50px 0 50px;
   padding: 0.5em;
 
-}
+} */
 
 nav ul {
   list-style: none; /* removes the bullets! */
@@ -94,5 +94,15 @@ main {
 }
 .content-main {
   display: grid;
-  grid-template-
+  grid-template-rows: 100px 1fr;
+}  
+
+.content-main h2 p {
+  grid-row: 1;
+  align-items: start;
+}
+
+.courses{
+  grid-template-columns: repeat(auto-fit, minmax(1em, 1fr)); 
+  grid-template-rows: repeat(auto-fit, minmax(1em, 1fr));  
 }

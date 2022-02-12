@@ -1,7 +1,7 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
 body {
   background-color: white;
   font-family: "Open Sans", sans-serif;
@@ -36,7 +36,7 @@ img {
   border-radius: 20px;
 }
 .logo-box{
-  background-color:#333333;
+  background-color:#073049;
   border: 1px solid white;
   margin-right: 6px;
   border-radius: 50px 50px 0 50px;
@@ -47,7 +47,7 @@ img {
 nav ul {
   list-style: none; /* removes the bullets! */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(9em, 1fr));   
+  grid-template-columns: repeat(auto-fit, minmax(1em, 1fr));   
   list-style:none;
   margin: 0;
   place-self: end;
@@ -90,4 +90,9 @@ main {
   color: #ffffff;
   font-family:"Bilbo Swash Caps", cursive;
   place-self: center;
+  font-size: 2em;
+}
+.content-main {
+  display: grid;
+  grid-template-
 }

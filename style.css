@@ -71,17 +71,20 @@ main {
   height:400px;
 }
 .banner-box img {
-  width: 100%;
+  width: 900;
   height: 400px;
   grid-column: 2;
   grid-row: 1;
+  place-self: center;
 }
 .banner-content {
   grid-column: 1;
   grid-row: 1;
-  margin: 1em 2em;
   padding: 1em;
   text-align: center;
   color: #ffffff;
   font-family:"Bilbo Swash Caps", cursive;
+  position: relative;
+  justify-content: center;
+  place-self: center;
 }

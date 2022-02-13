@@ -122,7 +122,17 @@ main {
 .content-main {
   display: grid;
   grid-template-rows: 100px 1fr;
-}  
+}
+
+.section-1 {
+  display: grid;
+  grid-template-rows: 100px 100px 1fr;
+}
+
+.section-2 {
+  display: grid;
+  grid-template-rows: 100px 1fr;
+}
 
 .content-main h2 p {
   grid-row: 1;
@@ -136,6 +146,14 @@ main {
   grid-column-gap: 100px;
   grid-row-gap:30px;
  
+}
+
+.courses-category {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+  grid-column-gap: 100px;
+  
 }
 
 .html {

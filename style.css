@@ -138,9 +138,9 @@ main {
 
 #icon-contain {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 100px 1fr 1fr 1fr ;
-  grid-column-gap: 100px;
+  grid-column-gap: 10px;
   grid-row-gap:30px;
 }
 
@@ -159,6 +159,8 @@ main {
   grid-row: 2;
 }
 .icon-description-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-column: 1;
   grid-row: 3;
 }
@@ -170,3 +172,9 @@ main {
   grid-column: 1;
   grid-row: 4;
 }
+
+span-3 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.icon-description-3 

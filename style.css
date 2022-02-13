@@ -126,7 +126,12 @@ main {
 
 .section-1 {
   display: grid;
-  grid-template-rows: 100px 100px 1fr;
+  grid-template-rows: 100px 100px 1fr 100px;
+}
+.button-load {
+  grid-row: 4;
+  text-align: center;
+  
 }
 
 .section-2 {
@@ -139,20 +144,23 @@ main {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   margin:50px 0px;
-  background-color: #123540;
+  background-color: #dad1e6;
 }
 .section-3 h1 {
   grid-row: 1;
   align-self: center;
+  justify-self: center;
 }
 .section-3 p {
   grid-row: 2;
   align-self: center;
+  justify-self: center;
+  color: #0131b4;
 }
 .form-course {
   grid-row: 3;
   align-self: center;
-  justify-self:
+  justify-self: center;
 }
 
 .content-main h2 p {

@@ -20,6 +20,11 @@ h1 {
   font-family: "Merriweather", serif;
   font-size: 32px;
 }
+.banner-content-course h2 {
+  font-size: 3em;
+  text-align: center;
+  margin: 190px 0px;
+}
 
 /* Header*/
 
@@ -101,11 +106,10 @@ main {
 .banner-content-course {
   grid-column: 1;
   grid-row: 1;
-  text-align: center;
   color: #ffffff;
   font-family:"Bilbo Swash Caps", cursive;
   align-self: end;
-  font-size: 2em;
+  
 }
 .course-nav ul {
   display: grid;

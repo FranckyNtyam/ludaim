@@ -143,7 +143,7 @@ section h1 {
   
   text-align: center;
   border: 3px solid #000000;
-  margin: 20px 450px;
+  margin: 20px auto;
   padding: 10px;
 }
 
@@ -157,6 +157,10 @@ section h1 {
   
 }
 
+.icon-description-1, .icon-description-2, .icon-description-3, .icon-description-4, .icon-description-5 {
+  margin: 0 auto;
+  padding: 20px;
+}
 .icon-description-1 {
   grid-column: 1;
   grid-row: 2;

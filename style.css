@@ -45,11 +45,11 @@ img {
 } */
 
 nav ul {
-  list-style: none; /* removes the bullets! */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(0.5em, 1fr));   
-  list-style:none;
-  margin: 0;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));   
+  list-style-type:none;
+  margin-block-end: 1em;
+  
   
 }
 nav a {
@@ -150,7 +150,7 @@ section h1 {
 .icon-contain {
   display: grid;
   grid-template-columns: 1fr 1fr ;
-  grid-template-rows: 100px 100px 100px  ;
+  grid-template-rows: 100px 1fr 1fr 1fr;
   grid-row-gap:30px;
   grid-column-gap: 10px;
  
@@ -158,7 +158,7 @@ section h1 {
 }
 
 .icon-description-1, .icon-description-2, .icon-description-3, .icon-description-4, .icon-description-5 {
-  margin: 0 auto;
+  margin: 0;
   padding: 20px;
 }
 .icon-description-1 {

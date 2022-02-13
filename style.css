@@ -138,18 +138,22 @@ main {
   grid-row: 2;
 }
 
-.icon-contain {
-  display: grid;
-  grid-template-rows: 1fr 1fr  ;
-  grid-row-gap:30px;
-  margin: 0 auto;
+
+section h1 {
+  
+  text-align: center;
+  border: 3px solid #000000;
   
 }
 
-.icon-contain h1 {
-  grid-row: 1;
-  place-self: end;
-  text-align: center;
+.icon-contain {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 100px 100px 100px  ;
+  grid-row-gap:30px;
+  grid-column-gap: 10px;
+ 
+  
 }
 
 .icon-description-1 {

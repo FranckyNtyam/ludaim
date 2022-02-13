@@ -25,7 +25,7 @@ h1 {
 
 header {
   display: grid;
-  grid-template-columns: 130px auto; 
+  grid-template-columns: 1fr 1fr; 
   align-items: center;
 }
 img {
@@ -44,14 +44,14 @@ img {
 
 } */
 
+
 nav ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));   
   list-style-type:none;
-  margin-block-end: 1em;
-  
-  
 }
+
+
 nav a {
   color: #073049;
   font-size: 1.1em;
@@ -180,4 +180,42 @@ section h1 {
 .icon-description-5 {
   grid-column: 1;
   grid-row: 4;
+}
+
+/* Footer*/
+
+footer {
+  display: grid;
+  height: 55px;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+  
+}
+.p-footer {
+  color: ;
+}
+.social {
+  grid-column: 2/3;
+  justify-self: end;
+  align-self: center;
+}
+.social img {
+    align-self: center;
+    padding: 0 5px 0 5px;
+}
+.social a > img {
+    width: 50px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 550px) {
+/* beginning of media query */
+    .home-grid {
+    display: block;
+    }
+
+/* end of media query */
 }

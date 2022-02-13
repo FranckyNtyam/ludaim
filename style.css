@@ -92,6 +92,16 @@ main {
   place-self: center;
   font-size: 2em;
 }
+.banner-content-course {
+  grid-column: 1;
+  grid-row: 1;
+  padding: 1em;
+  text-align: center;
+  color: #ffffff;
+  font-family:"Bilbo Swash Caps", cursive;
+  place-self: center;
+  font-size: 2em;
+}
 .content-main {
   display: grid;
   grid-template-rows: 100px 1fr;

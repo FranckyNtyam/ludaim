@@ -128,8 +128,13 @@ main {
   display: grid;
   grid-template-rows: 100px 100px 1fr 100px;
 }
+.presentation {
+  grid-row: 1;
+}
+.course-2
 .button-load {
   grid-row: 4;
+  justify-self: center;
   text-align: center;
   
 }

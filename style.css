@@ -135,6 +135,18 @@ main {
   margin:50px 0px;
 }
 
+.section-3 {
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  margin:50px 0px;
+}
+.section-3 h1 p {
+  grid-row: 1;
+}
+.form-course {
+  grid-row: 2;
+}
+
 .content-main h2 p {
   grid-row: 1;
   align-items: start;

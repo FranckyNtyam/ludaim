@@ -58,6 +58,12 @@ nav a {
   padding: 0.5em;
   
 }
+.course-nav a {
+  color: #ffffff;
+  font-size: 1.1em;
+  padding: 0.5em;
+  
+}
 nav a:hover {
     color: #ffffff;
     background-color: #073049;
@@ -95,24 +101,20 @@ main {
 .banner-content-course {
   grid-column: 1;
   grid-row: 1;
-  padding: 1em;
   text-align: center;
   color: #ffffff;
   font-family:"Bilbo Swash Caps", cursive;
-  place-self: center;
+  align-self: end;
   font-size: 2em;
 }
 .course-nav ul {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;   
+  grid-template-columns: 1fr 1fr 1fr 1fr;   
   list-style-type:none;
-}
-.course-nav a {
-  color: #073049;
-  font-size: 1.1em;
-  padding: 0.5em;
+  margin:100px 0px;
   
 }
+
 .content-main {
   display: grid;
   grid-template-rows: 100px 1fr;

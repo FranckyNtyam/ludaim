@@ -108,6 +108,7 @@ main {
   grid-template-rows: 1fr 1fr ;
   grid-column-gap: 100px;
   grid-row-gap:30px;
+  margin: 0 auto;
 }
 
 .html {

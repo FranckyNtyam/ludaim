@@ -137,16 +137,22 @@ main {
 
 .section-3 {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   margin:50px 0px;
   background-color: #123540;
 }
-.section-3 h1, p {
+.section-3 h1 {
   grid-row: 1;
   align-self: center;
 }
-.form-course {
+.section-3 p {
   grid-row: 2;
+  align-self: center;
+}
+.form-course {
+  grid-row: 3;
+  align-self: center;
+  justify-self:
 }
 
 .content-main h2 p {
@@ -246,6 +252,7 @@ main {
   grid-column: 1;
   grid-row: 4;
 }
+
 
 /* Footer*/
 

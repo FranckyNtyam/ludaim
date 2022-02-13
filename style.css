@@ -137,11 +137,13 @@ main {
 
 .section-3 {
   display: grid;
-  grid-template-rows: 100px 1fr;
+  grid-template-rows: 1fr 1fr;
   margin:50px 0px;
+  background-color: #123540;
 }
-.section-3 h1 p {
+.section-3 h1, p {
   grid-row: 1;
+  align-self: center;
 }
 .form-course {
   grid-row: 2;
@@ -216,7 +218,8 @@ main {
   
 }
 
-section h1 {
+  .icon-contain h1 {
+  grid-column: 1/ span3;
   grid-row: 1;
   text-align: center;
   padding: 10px;

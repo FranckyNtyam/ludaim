@@ -102,6 +102,17 @@ main {
   place-self: center;
   font-size: 2em;
 }
+.course-nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;   
+  list-style-type:none;
+}
+.course-nav a {
+  color: #073049;
+  font-size: 1.1em;
+  padding: 0.5em;
+  
+}
 .content-main {
   display: grid;
   grid-template-rows: 100px 1fr;

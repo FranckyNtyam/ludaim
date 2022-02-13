@@ -111,6 +111,7 @@ main {
   align-self: end;
   
 }
+
 .course-nav ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;   
@@ -126,18 +127,27 @@ main {
 
 .section-1 {
   display: grid;
-  grid-template-rows: 100px 100px 1fr 100px;
+  grid-template-rows: 200px 1fr 100px;
 }
 .presentation {
   grid-row: 1;
 }
-.course-2
+.courses-2 {
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+  grid-column-gap: 100px;
+  grid-row-gap:30px;
+  
+}
 .button-load {
   grid-row: 4;
   justify-self: center;
   text-align: center;
   
 }
+
 
 .section-2 {
   display: grid;

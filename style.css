@@ -384,9 +384,9 @@ footer {
   
 }
     .banner-box-courses img {
+      width: 100%;
+      height: auto;
   
-  width: auto;
-  height:auto;
   
 }
     .banner-box-home img {
@@ -429,15 +429,13 @@ footer {
   font-size: 0.9em;
 }
   .banner-box-courses {
-  display: block;
-  height: 400px;
+  height: 114px;
 }
 
-  .banner-content-course {
-  padding: 0px;
-  align-self: start;
-  
-  
+.banner-content-course h2 {
+  font-size: 1em;
+  text-align: center;
+  margin: 10px 0px;
 }
 
   

@@ -389,17 +389,43 @@ footer {
   .banner-box-courses .banner-box-home img {
     width: auto;
     height: auto;
+    grid-row: 1;
   }
   .banner-box-courses {
     height: 114px;
     margin-bottom: 90px;
     display: block;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color:#000000;
   }
   
   .banner-box-home {
     display: block;
     margin-bottom: 90px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color:#000000;
+    
   }
+
+
+.banner-content {
+  grid-row: 2;
+  padding: 1em;
+  text-align: center;
+  color: #ffffff;
+  font-family:"Bilbo Swash Caps", cursive;
+  place-self: center;
+  font-size: 2em;
+}
+.banner-content-course {
+  grid-row: 2;
+  color: #ffffff;
+  font-family:"Bilbo Swash Caps", cursive;
+  align-self: end;
+  
+}
   .banner-content-course h2 {
     color: black;
   }

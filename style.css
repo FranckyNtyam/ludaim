@@ -370,8 +370,9 @@ main {
   justify-self: center;
 }
 
-.icon-description-1 span {
+.icon-description-1 .span-1 {
   grid-row: 2;
+  float:left;
 }
 
 

@@ -326,7 +326,8 @@ main {
   grid-column: 1/ span3;
   grid-row: 1;
   text-align: center;
-  padding: 10px;
+  padding: 0px 10px;
+  float: right;
 }
 
 
@@ -446,7 +447,7 @@ footer {
   height: 114px;
 }
 
-.banner-content-course h2 {
+ .banner-content-course h2 {
   font-size: 1em;
   text-align: center;
   margin: 10px 0px;

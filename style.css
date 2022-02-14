@@ -364,9 +364,18 @@ footer {
 
 @media screen and (max-width: 550px) {
 /* beginning of media query */
-    .home-grid {
+    .section-1 .section-2 .section-3 {
     display: block;
     }
+  .banner-box img {
+    width: auto;
+    height: auto;
+  }
+  .banner-box {
+    height: 114px;
+    margin-bottom: 90px;
+    display: block;
+  }
 
 /* end of media query */
 }

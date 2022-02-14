@@ -366,6 +366,7 @@ footer {
 /* beginning of media query */
     .section-1 .section-2 .section-3 footer{
     display: block;
+    font-size: 0.5em;
     }
   .banner-box img {
     width: auto;
@@ -375,6 +376,9 @@ footer {
     height: 114px;
     margin-bottom: 90px;
     display: block;
+  }
+  .courses-category ,h4 p {
+    font-size: 0.5em;
   }
 
 /* end of media query */

@@ -140,7 +140,8 @@ main {
   grid-row: 1;
   text-align: center;
   border: 2px solid black;
-  background-color: #ffffff;
+  background-color: #fff
+    fff;
   justify-self: center;
   padding: 20px;
   margin: 50px;

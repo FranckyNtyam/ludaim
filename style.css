@@ -241,10 +241,6 @@ main {
   justify-self: center;
 }
 
-.icon-contain p {
-  font-size: 1em;
-}
-
 .content-main h2 p {
   grid-row: 1;
   align-items: start;

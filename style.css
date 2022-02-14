@@ -71,6 +71,11 @@ nav a {
   padding: 0.1em;
   
 }
+
+.section-2 a {
+  color: 
+}
+
 nav a:hover {
     color: #ffffff;
     background-color: #ABC36F;
@@ -225,7 +230,9 @@ main {
   grid-row: 4;
   justify-self: center;
   text-align: center;
-  
+  background-color: #ABC36F;
+  color: #ffffff;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .form-course {

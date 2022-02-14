@@ -162,7 +162,7 @@ main {
 
 .section-1 {
   display: grid;
-  grid-template-rows: 200px 1fr 100px;
+  grid-template-rows: 1fr 1fr 100px;
 }
 
 .section-2 {
@@ -190,7 +190,18 @@ main {
 }
 
 .presentation {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   grid-row: 1;
+}
+.presentation h2 {
+  grid-row: 1;
+}
+.presentation p {
+  grid-row: 1;
+}
+.presentation nav{
+  grid-row: 2;
 }
 
 .button-load {

@@ -249,9 +249,7 @@ main {
   grid-row: 1;
   align-items: start;
 }
-.span-1 {
-  width: 10
-}
+
 
 /* style of couses*/
 
@@ -362,7 +360,7 @@ main {
 }
 .icon-description-5 {
   display: grid;
-  grid-template-rows: 100px 1fr;
+  grid-template-rows: 100px 100px;
   grid-column: 1;
   grid-row: 4;
 }
@@ -371,9 +369,11 @@ main {
   grid-row: 1;
   justify-self: center;
 }
-.icon-description-1 span p {
+
+.icon-description-1 span {
   grid-row: 2;
 }
+
 
 /* Footer*/
 

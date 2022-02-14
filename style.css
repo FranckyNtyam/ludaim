@@ -334,6 +334,7 @@ main {
 .icon-description-1 {
   grid-column: 1;
   grid-row: 2;
+  display: block; 
 }
 .icon-description-2 {
   grid-column: 2;

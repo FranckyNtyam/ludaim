@@ -364,7 +364,7 @@ footer {
 
 @media screen and (max-width: 550px) {
 /* beginning of media query */
-    .section-1 .section-2 .section-3 {
+    .section-1 .section-2 .section-3 footer{
     display: block;
     }
   .banner-box img {

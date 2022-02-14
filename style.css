@@ -377,6 +377,16 @@ footer {
     margin-bottom: 90px;
     display: block;
   }
+  nav ul {
+    display: block;
+  }
+  nav a {
+    font-size: 0.5em;
+  
+  }
+  .course-nav-2 a {
+    font-size: 0.5em;
+  }
    .social a {
     font-size: 0.5em;
   }
@@ -398,7 +408,7 @@ footer {
     color: black;
     font-size: 0.5em
 }
-  .course-nav-2 
+  
  
 
 /* end of media query */

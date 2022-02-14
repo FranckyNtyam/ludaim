@@ -366,7 +366,7 @@ footer {
 /* beginning of media query */
     .section-1 .section-2 .section-3 footer{
     display: block;
-    font-size: 0.5em;
+    
     }
   .banner-box img {
     width: auto;
@@ -377,9 +377,29 @@ footer {
     margin-bottom: 90px;
     display: block;
   }
+   .social a {
+    font-size: 0.5em;
+  }
   .courses-category ,h4 p {
     font-size: 0.5em;
   }
+  .section-2 h1 a {
+    font-size: 0.5em;
+  }
+  .section-3, h1 p {
+    font-size: 0.5em;
+    padding: 10px;
+  }
+  .social a > img {
+    width: 20px;
+    border-radius: 10px;
+}
+  .p-footer {
+    color: black;
+    font-size: 0.5em
+}
+  .course-nav-2 
+ 
 
 /* end of media query */
 }

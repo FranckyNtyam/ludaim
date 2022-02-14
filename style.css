@@ -382,6 +382,10 @@ footer {
     display: block;
     
     }
+    .social a > img {
+    width: 20px;
+    border-radius: 10px;
+  }
   .banner-box-courses .banner-box-home img {
     width: auto;
     height: auto;
@@ -391,10 +395,15 @@ footer {
     margin-bottom: 90px;
     display: block;
   }
+  
   .banner-box-home {
     display: block;
     margin-bottom: 90px;
   }
+  .banner-content-course h2 {
+    color: black;
+  }
+ 
   nav ul {
     display: block;
   }
@@ -402,8 +411,12 @@ footer {
     font-size: 0.5em;
   
   }
+  .course-nav-1 {
+    color: black;
+  }
   .course-nav-2 a {
     font-size: 0.5em;
+    
   }
    .social a {
     font-size: 0.5em;
@@ -418,10 +431,7 @@ footer {
     font-size: 0.5em;
     padding: 10px;
   }
-  .social a > img {
-    width: 20px;
-    border-radius: 10px;
-}
+
   .p-footer {
     color: black;
     font-size: 0.5em

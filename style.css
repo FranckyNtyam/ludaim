@@ -129,17 +129,26 @@ main {
 }
 
 .content-main-contact {
+  display:grid;
+  grid-template-rows: 1fr 1fr;
   background-color: #92d36e;
+  padding: 20px;
+  margin: 50px 50px;
 }
 .content-main-contact h1 {
+  
   text-align: center;
   border: 3px solid black;
   background-color: #ffffff;
+  margin: 0px 250px;
+  padding: 10px;
 }
 .content-main-contact p {
   text-align: center;
   border: 3px solid black;
-  background-color: ffa382
+  background-color: #ffa382;
+  margin: 50px 200px;
+  padding: 20px;
 }
 
 /* style of Section */

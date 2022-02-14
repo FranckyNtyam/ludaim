@@ -63,9 +63,15 @@ nav a {
   padding: 0.5em;
   
 }
-.course-nav a {
+.course-nav-1 a {
   color: #ffffff;
-  font-size: 1.1em;
+  font-size: 1em;
+  padding: 0.5em;
+  
+}
+.course-nav-2 a {
+  color: #073049;
+  font-size: 1em;
   padding: 0.5em;
   
 }
@@ -162,7 +168,7 @@ main {
 
 .section-1 {
   display: grid;
-  grid-template-rows: 1fr 1fr 100px;
+  grid-template-rows: 300px 1fr 100px;
 }
 
 .section-2 {
@@ -191,17 +197,17 @@ main {
 
 .presentation {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
   grid-row: 1;
 }
 .presentation h2 {
   grid-row: 1;
 }
 .presentation p {
-  grid-row: 1;
+  grid-row: 2;
 }
 .presentation nav{
-  grid-row: 2;
+  grid-row: 3;
 }
 
 .button-load {

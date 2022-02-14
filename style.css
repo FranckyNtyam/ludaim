@@ -62,14 +62,14 @@ nav a {
   
 }
 .course-nav-2 a {
-  color: #073049;
+  color: #ABC36F;
   font-size: 0.7em;
   padding: 0.1em;
   
 }
 nav a:hover {
     color: #ffffff;
-    background-color: #073049;
+    background-color: #ABC36F;
 }
 
 /* Main*/
@@ -208,6 +208,7 @@ main {
 }
 .presentation h2 {
   grid-row: 1;
+  color: #ABC36F;
 }
 .presentation p {
   grid-row: 2;
@@ -351,7 +352,7 @@ footer {
   
 }
 .p-footer {
-  color: black;
+  color: #ABC36F;
 }
 .social {
   grid-column: 2/3;

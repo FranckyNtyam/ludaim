@@ -241,9 +241,16 @@ main {
   justify-self: center;
 }
 
+.icon-contain p {
+  font-size: 0.8em;
+}
+
 .content-main h2 p {
   grid-row: 1;
   align-items: start;
+}
+.span-1 {
+  width: 10
 }
 
 /* style of couses*/
@@ -319,10 +326,6 @@ main {
   grid-column-gap: 10px;
  
   
-}
-
-.icon-contain p {
-  font-size: 0.8
 }
 
 .icon-contain h1 {

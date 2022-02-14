@@ -389,16 +389,12 @@ footer {
     border-radius: 10px;
   }
      .banner-box-home .banner-box-courses img {
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 100px;
   
   }
-  .banner-box-courses .banner-box-home  {
-    display: block;
-  }
-  
-  .banner-content-course {
-    height: 200px;
+  .banner-content {
+    height: 100px;
   }
  
   nav ul {
@@ -411,12 +407,7 @@ footer {
   .course-nav-1 {
     color: black;
   }
-  .course-nav-2 {
-    font-size: 0.8em;
-    color: black;
-    margin: 0
-    
-  }
+ 
    .social a {
     font-size: 0.5em;
   }
@@ -424,10 +415,10 @@ footer {
     font-size: 0.5em;
   }
   .section-2 h1 a {
-    font-size: 0.5em;
+    font-size: 0.6em;
   }
   .section-3, h1 p {
-    font-size: 0.5em;
+    font-size: 0.7em;
     padding: 10px;
   }
 

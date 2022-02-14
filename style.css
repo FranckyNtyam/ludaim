@@ -89,13 +89,27 @@ main {
 
 /* banner-bqx and banner-contain*/
 
-.banner-box {
+.banner-box-home {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color:#000000;
   height:600px;
 }
-.banner-box img {
+.banner-box-home img {
+  width: 100%;
+  height: 600px;
+  grid-column: 2;
+  grid-row: 1;
+  
+}
+
+.banner-box-courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color:#000000;
+  height:600px;
+}
+.banner-box-courses img {
   width: 100%;
   height: 600px;
   grid-column: 2;
@@ -368,14 +382,18 @@ footer {
     display: block;
     
     }
-  .banner-box img {
+  .banner-box-courses .banner-box-home img {
     width: auto;
     height: auto;
   }
-  .banner-box {
+  .banner-box-courses {
     height: 114px;
     margin-bottom: 90px;
     display: block;
+  }
+  .banner-box-home {
+    display: block;
+    margin-bottom: 90px;
   }
   nav ul {
     display: block;

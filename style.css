@@ -353,12 +353,13 @@ main {
   grid-row: 4;
 }
 
-.icon-description-1 h3 {
+.icon-contain h3 {
   text-align: center;
 }
 
 span {
   float: left;
+  padding-right: 10px;
 }
 
 

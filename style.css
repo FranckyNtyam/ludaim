@@ -19,6 +19,10 @@ body {
 h1 {
   font-family: "Merriweather", serif;
   font-size: 32px;
+  color: #ABC36F;
+}
+h2, h3, h4 {
+  color: #ABC36F;
 }
 .banner-content-course h2 {
   font-size: 3em;
@@ -289,13 +293,13 @@ main {
   grid-row: 2;
 }
 
-.html-2 {
+.react {
   grid-column: 1;
 }
-.css-2 {
+.nodejs {
   grid-column: 2;
 }
-.javascript-2 {
+.django {
   grid-column: 3;
 }
 

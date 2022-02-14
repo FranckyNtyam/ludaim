@@ -80,6 +80,9 @@ main {
   display: block;
   background-color:#ffffff;
 }
+
+/* banner-bqx and banner-contain*/
+
 .banner-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -125,6 +128,8 @@ main {
   grid-template-rows: 100px 1fr;
 }
 
+/* style of Section */
+
 .section-1 {
   display: grid;
   grid-template-rows: 200px 1fr 100px;
@@ -165,7 +170,6 @@ main {
   
 }
 
-
 .form-course {
   grid-row: 3;
   align-self: center;
@@ -176,6 +180,8 @@ main {
   grid-row: 1;
   align-items: start;
 }
+
+/* style of couses*/
 
 .courses-home-page {
   display: grid;

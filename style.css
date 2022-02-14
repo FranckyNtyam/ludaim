@@ -71,8 +71,8 @@ nav a {
 }
 .course-nav-2 a {
   color: #073049;
-  font-size: 1em;
-  padding: 0.5em;
+  font-size: 0.7em;
+  padding: 0.1em;
   
 }
 nav a:hover {
@@ -234,8 +234,8 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr ;
-  grid-column-gap: 100px;
-  grid-row-gap:30px;
+  grid-column-gap: 50px;
+  grid-row-gap:20px;
  
 }
 .courses-courses-page {
@@ -243,15 +243,15 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr ;
-  grid-column-gap: 100px;
-  grid-row-gap:30px;
+  grid-column-gap: 50px;
+  grid-row-gap:20px;
   
 }
 
 .courses-category {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 100px;
+  grid-column-gap: 50px;
   
 }
 

@@ -54,7 +54,7 @@ nav ul {
 
 
 nav a {
-  color: #073049;
+  color: #ABC36F;
   font-size: 1.1em;
   padding: 0.5em;
   
@@ -67,7 +67,7 @@ nav a {
 }
 .course-nav-2 a {
   color: #ABC36F;
-  font-size: 0.7em;
+  font-size: 1em;
   padding: 0.1em;
   
 }
@@ -152,7 +152,7 @@ main {
   display:grid;
   grid-template-rows: 150px 1fr;
   grid-row-gap:20px;
-  background-color: #92d36e;
+  background-color: #E2E9C4;
   margin: 50px 10px;
 }
 .content-main-contact h1 {
@@ -168,7 +168,7 @@ main {
   grid-row: 2;
   text-align: center;
   border: 2px solid black;
-  background-color: #ffa382;
+  background-color: #D5DABE;
   justify-self: center;
   font-size: 1em;
   padding: 20px 80px;

@@ -321,6 +321,10 @@ main {
   
 }
 
+.icon-contain p {
+  font-size: 0.8
+}
+
 .icon-contain h1 {
   grid-column: 1/ span3;
   grid-row: 1;
@@ -330,26 +334,43 @@ main {
 
 
 .icon-description-1 {
+  display: grid;
+  grid-template-rows: 100px 1fr;
   grid-column: 1;
   grid-row: 2;
 }
 .icon-description-2 {
+  display: grid;
+  grid-template-rows: 100px 1fr;
   grid-column: 2;
   grid-row: 2;
 }
 .icon-description-3 {
+  display: grid;
+  grid-template-rows: 100px 1fr;
   grid-column: 1;
   grid-row: 3;
 }
 .icon-description-4 {
+  display: grid;
+  grid-template-rows: 100px 1fr;
   grid-column: 2;
   grid-row: 3;
 }
 .icon-description-5 {
+  display: grid;
+  grid-template-rows: 100px 1fr;
   grid-column: 1;
   grid-row: 4;
 }
 
+.icon-description-1 h3 {
+  grid-row: 1;
+  justify-self: center;
+}
+.icon-description-1 span p {
+  grid-row: 2;
+}
 
 /* Footer*/
 

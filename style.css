@@ -129,25 +129,6 @@ main {
   display: grid;
   grid-template-rows: 200px 1fr 100px;
 }
-.presentation {
-  grid-row: 1;
-}
-.courses-2 {
-  grid-row: 2;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr ;
-  grid-column-gap: 100px;
-  grid-row-gap:30px;
-  
-}
-.button-load {
-  grid-row: 4;
-  justify-self: center;
-  text-align: center;
-  
-}
-
 
 .section-2 {
   display: grid;
@@ -172,6 +153,19 @@ main {
   justify-self: center;
   color: #0131b4;
 }
+
+.presentation {
+  grid-row: 1;
+}
+
+.button-load {
+  grid-row: 4;
+  justify-self: center;
+  text-align: center;
+  
+}
+
+
 .form-course {
   grid-row: 3;
   align-self: center;
@@ -183,13 +177,22 @@ main {
   align-items: start;
 }
 
-.courses {
+.courses-home-page {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr ;
   grid-column-gap: 100px;
   grid-row-gap:30px;
  
+}
+.courses-courses-page {
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+  grid-column-gap: 100px;
+  grid-row-gap:30px;
+  
 }
 
 .courses-category {
@@ -247,7 +250,7 @@ main {
   
 }
 
-  .icon-contain h1 {
+.icon-contain h1 {
   grid-column: 1/ span3;
   grid-row: 1;
   text-align: center;

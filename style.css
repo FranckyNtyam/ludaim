@@ -19,7 +19,6 @@ body {
 #content {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #ffffff;
   padding: 0 5px;
 }
 
@@ -41,8 +40,10 @@ h2, h3, h4 {
 
 header {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
-  align-items: center;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	background-color: #ffffff;
+  padding: 1em 0;
 }
 img {
   max-width: 100%;
